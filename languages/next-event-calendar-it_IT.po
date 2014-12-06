@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Next Event Calendar\n"
-"POT-Creation-Date: 2014-11-17 16:33+0100\n"
-"PO-Revision-Date: 2014-11-17 16:33+0100\n"
+"POT-Creation-Date: 2014-12-06 13:21+0100\n"
+"PO-Revision-Date: 2014-12-06 13:23+0100\n"
 "Last-Translator: Andrea Marchetti <afmarchetti@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -41,15 +41,107 @@ msgstr ""
 "Spunta questo box per usare il tuo stile.  <br/><small>carica il tuo stile "
 "nella cartella del tema e chiamalo next-event-calendar.css</small>"
 
-#: ../loop-events.php:33
+#: ../loop-events.php:32
 msgid "<strong>This</strong> Month"
 msgstr "<strong>Questo</strong> Mese"
 
-#: ../loop-events.php:77 ../single.php:56 ../widget.php:148
+#: ../loop-events.php:50
+msgid "January"
+msgstr "Gennaio"
+
+#: ../loop-events.php:50
+msgid "Jen"
+msgstr "Gen"
+
+#: ../loop-events.php:51
+msgid "February"
+msgstr "Febbraio"
+
+#: ../loop-events.php:51
+msgid "Feb"
+msgstr "Feb"
+
+#: ../loop-events.php:52
+msgid "March"
+msgstr "Marzo"
+
+#: ../loop-events.php:52
+msgid "Mar"
+msgstr "Mar"
+
+#: ../loop-events.php:53
+msgid "April"
+msgstr "Aprile"
+
+#: ../loop-events.php:53
+msgid "Apr"
+msgstr "Apr"
+
+#: ../loop-events.php:54
+msgid "May"
+msgstr "Maggio"
+
+#: ../loop-events.php:55
+msgid "June"
+msgstr "Giugno"
+
+#: ../loop-events.php:55
+msgid "Jun"
+msgstr "Giu"
+
+#: ../loop-events.php:56
+msgid "July"
+msgstr "Luglio"
+
+#: ../loop-events.php:56
+msgid "Jul"
+msgstr "Lug"
+
+#: ../loop-events.php:57
+msgid "August"
+msgstr "Agosto"
+
+#: ../loop-events.php:57
+msgid "Aug"
+msgstr "Ago"
+
+#: ../loop-events.php:58
+msgid "September"
+msgstr "Settembre"
+
+#: ../loop-events.php:58
+msgid "Sep"
+msgstr "Set"
+
+#: ../loop-events.php:59
+msgid "October"
+msgstr "Ottobre"
+
+#: ../loop-events.php:59
+msgid "Oct"
+msgstr "Ott"
+
+#: ../loop-events.php:60
+msgid "November"
+msgstr "Novembre"
+
+#: ../loop-events.php:60
+msgid "Nov"
+msgstr "Nov"
+
+#: ../loop-events.php:61
+msgid "December"
+msgstr "Dicembre"
+
+#: ../loop-events.php:61
+msgid "Dec"
+msgstr "Dic"
+
+#: ../loop-events.php:93 ../single.php:56 ../widget.php:148
 msgid "TODAY"
 msgstr "OGGI"
 
-#: ../loop-events.php:127
+#: ../loop-events.php:143
 msgid "Show the event"
 msgstr "Mostra L'evento"
 

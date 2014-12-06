@@ -30,7 +30,7 @@
 				.nec-today{background: #fb3738; color:#fff; position: absolute; bottom:0;left:0;font-size: 10px; padding: 1px 5px}
 			
 			.nec-info{ font-size: 13px; font-weight: bold; text-transform: uppercase;}
-			.nec-clock{width:16px; height: auto;margin: 0 0 -3px 3px}
+			.nec-clock{margin: 0 3px 0px 3px}
 		
 				
 		.nec-head{color: #333;float:left; width:64%;margin: 0 3% 0 3%;position: relative;}

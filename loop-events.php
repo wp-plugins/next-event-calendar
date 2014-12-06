@@ -19,11 +19,10 @@
 			
 			$time_zone_selected = 'Europe/London';
 		} 
-
 	
 		date_default_timezone_set($time_zone_selected);
 		
-		$current_month = date('M'); 
+		$current_month = date('F'); 
 		$current_month_save = date('M');
 		$current_day = date('j');
 		
@@ -43,23 +42,40 @@
 				$my_month_full = date("F", strtotime($original_date ));
 				$my_year = date("Y", strtotime($original_date ));  
 				$my_hour = date("H", strtotime($original_date )); 
-				$my_min = date("i", strtotime($original_date ));  
-			?>
-				 
-
-			<?php // If is not this month, show the month
+				$my_min = date("i", strtotime($original_date )); 
 			
-				if( $my_month != $current_month ):
-				    $current_month = $my_month_full;
-				    echo '<p class="tit-month"><strong>' . $current_month .'</strong>&nbsp; '. $my_year .'</p>';
-				endif;	 
+			// add month translation
+			
+			switch ($my_month_full) {
+				case "January":   $translate_month = __("January", "next-event-calendar"); 	 $short_month = __("Jen", "next-event-calendar"); break;
+				case "February":  $translate_month = __("February", "next-event-calendar");  $short_month = __("Feb", "next-event-calendar"); break;
+				case "March":     $translate_month = __("March", "next-event-calendar");     $short_month = __("Mar", "next-event-calendar"); break;
+				case "April":     $translate_month = __("April", "next-event-calendar");     $short_month = __("Apr", "next-event-calendar"); break;
+				case "May":       $translate_month = __("May", "next-event-calendar");       $short_month = __("May", "next-event-calendar"); break;
+				case "June":      $translate_month = __("June", "next-event-calendar");      $short_month = __("Jun", "next-event-calendar"); break;
+				case "July":      $translate_month = __("July", "next-event-calendar");      $short_month = __("Jul", "next-event-calendar"); break;
+				case "August":    $translate_month = __("August", "next-event-calendar");    $short_month = __("Aug", "next-event-calendar"); break;
+				case "September": $translate_month = __("September", "next-event-calendar"); $short_month = __("Sep", "next-event-calendar"); break;
+				case "October":   $translate_month = __("October", "next-event-calendar");   $short_month = __("Oct", "next-event-calendar"); break;
+				case "November":  $translate_month = __("November", "next-event-calendar");  $short_month = __("Nov", "next-event-calendar"); break;
+				case "December":  $translate_month = __("December", "next-event-calendar");  $short_month = __("Dec", "next-event-calendar"); break;
+							    
+			}
+			 
+		 	// If is not current month, show the month
+		
+			if( $my_month_full != $current_month ):
+			    $current_month = $my_month_full;
+			    echo '<p class="tit-month"><strong>' . $translate_month .'</strong>&nbsp; '. $my_year .'</p>';
+			endif;	
+			 
 			?>
 	 
 			<div class="nec-element <?php if(get_option('columns_option') == "radio-two"){ ?> nec-col3 <?php } ?>">
 				
 				<div class="nec-img">
 				
-					<div class="nec-day"><div class="nec-d"><?php echo $my_day; ?></div> <div class="nec-m"><?php echo $my_month; ?></div></div>
+					<div class="nec-day"><div class="nec-d"><?php echo $my_day; ?></div> <div class="nec-m"><?php echo $short_month; ?></div></div>
 					 		
 					<?php if ( has_post_thumbnail() ) {
 					
@@ -85,7 +101,7 @@
 					
 					<div class="nec-info"> 
 						
-						<?php echo '<img class="nec-clock" src="' . plugins_url( 'img/clock.png', __FILE__ ) . '" > '; echo $my_hour; ?>:<?php echo $my_min; ?>
+						<?php echo '<img  height="16" width="16" class="nec-clock" src="' . plugins_url( 'img/clock.png', __FILE__ ) . '" > '; echo $my_hour; ?>:<?php echo $my_min; ?>
 						
 						<?php // Show the Event Category
 	
@@ -112,7 +128,7 @@
 						<div class="in-cont">
 							
 							<?php  $content = get_the_excerpt();
-								echo substr($content, 0, strpos($content, ' ', 260)) ?>
+								echo substr($content, 0, strpos($content, ' ', 260)); ?>
 							
 							<?php // Determinate the Event Link
 							
