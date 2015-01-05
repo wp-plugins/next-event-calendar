@@ -127,8 +127,7 @@
 							
 						<div class="in-cont">
 							
-							<?php  $content = get_the_excerpt();
-								echo substr($content, 0, strpos($content, ' ', 260)); ?>
+							<?php  echo get_the_excerpt(); ?>
 							
 							<?php // Determinate the Event Link
 							
