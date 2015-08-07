@@ -4,7 +4,7 @@ Plugin Name: 	Next Event Calendar
 Plugin URI:     http://www.marchettidesign.net/next-event-calendar
 Description: 	Easily add Events to WordPress and display them in a beautiful clean layout Responsive. Organize Events in category and filter them with an ajax category Menù. Show events from specific category with the Category Widget Events.  The layout autohide passed events and show if a event is today. Manage the date and hour easly thanks to a cool Datepicker.  
 Text Domain:    next-event-calendar
-Version: 		1.1
+Version: 		1.2
 License: 		GPL
 Author: 		Andrea Marchetti
 Author URI: 	http://www.marchettidesign.net
