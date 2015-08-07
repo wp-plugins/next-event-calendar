@@ -1,0 +1,183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Next Event Calendar\n"
+"POT-Creation-Date: 2014-11-17 16:33+0100\n"
+"PO-Revision-Date: 2014-11-17 16:33+0100\n"
+"Last-Translator: Andrea Marchetti <afmarchetti@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin.php:40
+msgid "Select your Timezone: "
+msgstr ""
+
+#: ../admin.php:79
+msgid "Hide Menu"
+msgstr ""
+
+#: ../admin.php:80
+msgid "Hide Menu in Calendar Page"
+msgstr ""
+
+#: ../admin.php:92
+msgid "Disable Style"
+msgstr ""
+
+#: ../admin.php:93
+msgid ""
+"Check this box to use your own CSS styling. <br/><small>Store your styling "
+"in a CSS file called <strong>next-event-calendar.css</strong> in your "
+"theme's folder.</small>"
+msgstr ""
+
+#: ../loop-events.php:33
+msgid "<strong>This</strong> Month"
+msgstr ""
+
+#: ../loop-events.php:77 ../single.php:56 ../widget.php:148
+msgid "TODAY"
+msgstr ""
+
+#: ../loop-events.php:127
+msgid "Show the event"
+msgstr ""
+
+#: ../next-event-calendar.php:55
+msgid "Events"
+msgstr ""
+
+#: ../next-event-calendar.php:56
+msgid "Event"
+msgstr ""
+
+#: ../next-event-calendar.php:57
+msgid "Add New"
+msgstr ""
+
+#: ../next-event-calendar.php:58
+msgid "Add New Event"
+msgstr ""
+
+#: ../next-event-calendar.php:59
+msgid "Edit Event"
+msgstr ""
+
+#: ../next-event-calendar.php:60
+msgid "New Event"
+msgstr ""
+
+#: ../next-event-calendar.php:61
+msgid "All Events"
+msgstr ""
+
+#: ../next-event-calendar.php:62
+msgid "View Event"
+msgstr ""
+
+#: ../next-event-calendar.php:63
+msgid "Search Events"
+msgstr ""
+
+#: ../next-event-calendar.php:64
+msgid "Event not Found"
+msgstr ""
+
+#: ../next-event-calendar.php:65
+msgid "Event not Found in Trash"
+msgstr ""
+
+#: ../next-event-calendar.php:100 ../next-event-calendar.php:108
+msgid "Event Categories"
+msgstr ""
+
+#: ../next-event-calendar.php:101
+msgid "Event Category"
+msgstr ""
+
+#: ../next-event-calendar.php:102
+msgid "Search Event Category "
+msgstr ""
+
+#: ../next-event-calendar.php:103
+msgid "All Events Categories"
+msgstr ""
+
+#: ../next-event-calendar.php:104
+msgid "Edit Event Categories"
+msgstr ""
+
+#: ../next-event-calendar.php:105
+msgid "Update Event Category"
+msgstr ""
+
+#: ../next-event-calendar.php:106
+msgid "Add New Event Category"
+msgstr ""
+
+#: ../next-event-calendar.php:107
+msgid "New Event Category Name"
+msgstr ""
+
+#: ../next-event-calendar.php:159
+msgid "Next Event Calendar"
+msgstr ""
+
+#: ../next-event-calendar.php:187
+msgid "Date of the Event"
+msgstr ""
+
+#: ../next-event-calendar.php:187
+msgid "Click in the box and select a date."
+msgstr ""
+
+#: ../next-event-calendar.php:187
+msgid "Event Date"
+msgstr ""
+
+#: ../next-event-calendar.php:189
+msgid "Custom Link of the Event"
+msgstr ""
+
+#: ../next-event-calendar.php:189
+msgid "If you want you can insert custom link."
+msgstr ""
+
+#: ../next-event-calendar.php:189
+msgid "Custom Link"
+msgstr ""
+
+#: ../next-event-calendar.php:282
+msgid "All"
+msgstr ""
+
+#: ../widget.php:19
+msgid "Next Event Calendar Category"
+msgstr ""
+
+#: ../widget.php:20
+msgid "Display latest event from a Next Event Calendar Category."
+msgstr ""
+
+#: ../widget.php:161
+msgid "No events are scheduled."
+msgstr ""
+
+#: ../widget.php:195
+msgid "Title:"
+msgstr ""
+
+#: ../widget.php:199
+msgid "Choose a category to show:"
+msgstr ""
+
+#: ../widget.php:209
+msgid "Number Post to show:"
+msgstr ""
